@@ -4,12 +4,13 @@
   --tan: #ded5c4;
   --orange: #ef7e56;
   --blue: #305973;
+  --default-font: "Roboto Mono", monospace;
 }
 h1 {
   font-weight: bold;
 }
 .hero {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--default-font);
   background: var(--white);
   color: var(--blue);
   text-align: center;
