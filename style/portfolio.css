@@ -24,3 +24,16 @@ h1 {
   font-size: 16px;
   line-height: 25px;
 }
+.text-center {
+  font-family: var(--default-font);
+  color: var(--blue);
+}
+.container {
+  font-family: var(--default-font);
+  background: var(--white);
+  color: var(--blue);
+  text-align: center;
+}
+img {
+  background-color: var(--tan);
+}
