@@ -1,5 +1,25 @@
 /*font-family: 'Oxygen', sans-serif; */
+:root {
+  --white: #f9f9f9;
+  --tan: #ded5c4;
+  --orange: #ef7e56;
+  --blue: #305973;
+}
 h1 {
-  font-family: "Oxygen", sans-serif;
-  color: blue;
+  font-weight: bold;
+}
+.hero {
+  font-family: "Roboto Mono", monospace;
+  background: var(--white);
+  color: var(--blue);
+  text-align: center;
+  padding: 160px 20px;
+}
+.btn-branding {
+  background: var(--orange);
+  color: var(--white);
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 16px;
+  line-height: 25px;
 }
