@@ -27,6 +27,8 @@ h1 {
 .text-center {
   font-family: var(--default-font);
   color: var(--blue);
+  background: var(--tan);
+  font-weight: bold;
 }
 .container {
   font-family: var(--default-font);
@@ -34,6 +36,9 @@ h1 {
   color: var(--blue);
   text-align: center;
 }
-img {
+.project-image {
   background-color: var(--tan);
+  max-width: 50%;
+  border-radius: 5px;
+  border-color: var(--blue);
 }
