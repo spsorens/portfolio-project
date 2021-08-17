@@ -21,6 +21,7 @@ h1 {
   background: var(--green);
   color: var(--dark);
   border-radius: 8px;
+  border-color: var(--dark);
   padding: 12px 25px;
   font-size: 16px;
   line-height: 25px;
@@ -54,4 +55,14 @@ h1 {
   max-height: 400px;
   border-radius: 50px;
   border-color: var(--dark);
+}
+.resume {
+  font-family: var(--default-font);
+  background: var(--white);
+  color: var(--blue);
+  text-align: center;
+  padding: 160px 20px;
+}
+.resume h1 {
+  color: var(--dark);
 }
