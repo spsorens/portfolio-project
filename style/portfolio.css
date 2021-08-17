@@ -9,6 +9,7 @@
 h1 {
   font-weight: bold;
 }
+
 .hero {
   font-family: var(--default-font);
   background: var(--white);
