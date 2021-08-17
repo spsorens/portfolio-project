@@ -1,9 +1,9 @@
 /*font-family: 'Oxygen', sans-serif; */
 :root {
   --white: #f9f9f9;
-  --tan: #ded5c4;
-  --orange: #ef7e56;
-  --blue: #305973;
+  --green: #9fd3c7;
+  --blue: #385170;
+  --dark: #142d4c;
   --default-font: "Roboto Mono", monospace;
 }
 h1 {
@@ -18,8 +18,8 @@ h1 {
   padding: 160px 20px;
 }
 .btn-branding {
-  background: var(--orange);
-  color: var(--white);
+  background: var(--green);
+  color: var(--dark);
   border-radius: 8px;
   padding: 12px 25px;
   font-size: 16px;
@@ -28,7 +28,7 @@ h1 {
 .text-center {
   font-family: var(--default-font);
   color: var(--blue);
-  background: var(--tan);
+  background: var(--green);
   font-weight: bold;
 }
 .container {
@@ -42,4 +42,16 @@ h1 {
   max-width: 50%;
   border-radius: 5px;
   border-color: var(--blue);
+}
+.about-section {
+  font-family: var(--default-font);
+  background: var(--white);
+  color: var(--blue);
+  text-align: center;
+  padding: 160px 20px;
+}
+.about-image {
+  max-height: 400px;
+  border-radius: 50px;
+  border-color: var(--dark);
 }

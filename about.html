@@ -4,10 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/portfolio.css" />
-    <title>About Shannan</title>
+    <title>Shannan Sorenson | About</title>
   </head>
   <body>
-    <h1>About Shannan</h1>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      style="background-color: #ded5c4"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About Me</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--about section-->
+    <div class="about-section">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>
+            About
+            <span style="color: #142d4c"> Shannan </span>
+          </h1>
+          <p>
+            My journey in web development is new and somewhat unexpected. I've
+            been working in the insurance industry for the past 8 years. I
+            developed an interest in web development after spending the better
+            part of the past year learning the dev side of things in my role as
+            a medical underwriter. Intrigued, I decided to learn how to code in
+            my spare time so I could understand more about the nuts and bolts of
+            the project. Thanks to SheCodes, I've been able to dive in.
+            Throughout this journey, I've learned a lot and unlocked a new
+            passion and plan on continuing on this journey.
+          </p>
+          <a href="/projects.html" class="btn-branding">Peep my Projects</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/selfie.jpeg" alt class="img-fluid about-image" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
