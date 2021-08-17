@@ -43,10 +43,8 @@ h1 {
   text-align: center;
 }
 .project-image {
-  background-color: var(--tan);
-  max-width: 50%;
-  border-radius: 5px;
-  border-color: var(--blue);
+  border-radius: 10px;
+  border-color: var(--dark);
 }
 .about-section {
   font-family: var(--default-font);
