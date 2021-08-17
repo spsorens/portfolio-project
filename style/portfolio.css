@@ -9,7 +9,11 @@
 h1 {
   font-weight: bold;
 }
-
+.container-fluid {
+  background-color: var(--green);
+  color: var(--dark);
+  border: var(--dark);
+}
 .hero {
   font-family: var(--default-font);
   background: var(--white);
