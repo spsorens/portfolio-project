@@ -78,3 +78,20 @@ h1 {
   text-align: center;
   padding: 160px 20px;
 }
+footer .email-link {
+  text-decoration: none;
+  font-family: var(--default-font);
+  color: var(--blue);
+}
+footer .email-link:hover {
+  color: var(--green);
+}
+footer .social-links a {
+  color: var(--dark);
+  text-decoration: none;
+  padding: 15px;
+  height: 20px;
+}
+footer .social-links a:hover {
+  color: var(--green);
+}
