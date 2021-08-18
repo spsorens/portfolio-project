@@ -49,6 +49,11 @@ h1 {
   border-radius: 10px;
   border-color: var(--dark);
 }
+.skills-container {
+  font-family: var(--default-font);
+  color: var(--dark);
+  background: var(--white);
+}
 .about-section {
   font-family: var(--default-font);
   background: var(--white);
