@@ -87,6 +87,7 @@ h1 {
   width: 320px;
   height: 240px;
   border-style: solid;
+  border-width: thin;
   border-color: var(--blue);
   box-shadow: inset;
   border-radius: 30px;
@@ -99,6 +100,12 @@ h1 {
 .certificate-image {
   width: 300px;
   height: 240px;
+  height: 240px;
+  border-style: solid;
+  border-width: thin;
+  border-color: var(--blue);
+  box-shadow: inset;
+  border-radius: 30px;
 }
 
 .contact-section {
