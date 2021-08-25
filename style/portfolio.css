@@ -84,8 +84,17 @@ h1 {
 }
 .education-image {
   background: var(--white);
-  width: 300px;
+  width: 320px;
   height: 240px;
+  border-style: solid;
+  border-color: var(--blue);
+  box-shadow: inset;
+  border-radius: 30px;
+}
+.education-description {
+  color: var(--blue);
+  font-weight: bold;
+  height: 20px;
 }
 .certificate-image {
   width: 300px;
